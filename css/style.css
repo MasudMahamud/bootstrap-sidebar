@@ -1,0 +1,62 @@
+.navOpen {
+  width: 200px;
+  height: 100%;
+  background-color: rgb(255 255 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 16px;
+  padding-left: 16px;
+  transition: 0.1s;
+  overflow-x: hidden;
+  z-index: 9;
+}
+.navClose {
+  width: 80px;
+  height: 100%;
+  background-color: rgb(198, 198, 198);
+  color: aliceblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 16px;
+  padding-left: 16px;
+  transition: 0.1s;
+  overflow-x: hidden;
+  z-index: 9;
+}
+
+.overLay {
+  display: block;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 0.1s;
+  cursor: pointer;
+  background-color: rgba(40, 29, 29, 0.264);
+  z-index: 5;
+}
+.overLayClose {
+  display: none;
+}
+.main_content {
+  z-index: 4;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+.navMenu {
+  text-decoration: none;
+  color: brown;
+}
+.navMenu:hover {
+  color: black;
+  transition: 0.1s;
+  border-left: 4px solid saddlebrown;
+}
+
+button.btn.btn-outline-dark {
+  transition: 0.1s;
+}
